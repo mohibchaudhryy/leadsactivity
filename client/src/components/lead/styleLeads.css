@@ -1,0 +1,10 @@
+.hdiv1{
+    height: 350px;
+    width: 50%;
+    background-color: lavender;
+    overflow-y: scroll;
+    float:left;
+}
+table{
+    text-align: center;
+}

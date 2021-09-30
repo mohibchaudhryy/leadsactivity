@@ -1,0 +1,28 @@
+body
+.header{
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.494);
+    margin-top: 2rem;
+    color: white;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+.useName{
+    margin-left:auto;
+    margin-right:25px;
+}
+.btnLog{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.title{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    color: aliceblue;
+}
