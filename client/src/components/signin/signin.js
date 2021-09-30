@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Paper, Typography, Container, Grid, Button, TextField } from '@material-ui/core';
 import { useDispatch } from 'react-redux';
 import { useHistory } from 'react-router-dom';
@@ -6,7 +6,6 @@ import { signIn } from '../../actions/signin';
 import "./style.css";
 
 const SignIn = () => {
-    const user = JSON.parse(localStorage.getItem('profile'));
     const [credentials,setCredentials] = useState({email:'',password:''});
     const dispatch = useDispatch();   
     const history = useHistory(); 
@@ -19,7 +18,6 @@ const SignIn = () => {
 
             e.preventDefault(); 
             dispatch(signIn(credentials, history));
-            history.push('/');
         }
 
     return (
